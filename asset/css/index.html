@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Complementario Dom</title>
+</head>
+<body>
+    <header>   
+        <div class="hero">
+            <header class="header contenedor">
+                <div class="logo">
+                    <img src="./imagenes/Plantilla Italia.jpeg">
+                </div>
+    </header>
+    
+    <nav class="navegacion">
+        <a href="#">inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        
+    </nav>
+
+    <main class="contenido contenedor">
+        <section class="hacer">
+            <h2>Servicios Disponibles</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="./imagenes/Acta.svg">
+                        <div class="info">
+                            <p class="categoria servicio">Actas</p>
+                            <p class="titulo">Comunes</p>
+                            <p class="precio"> €150 por persona</p>
+                        </div>
+                    </div> 
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <form class="conteiner" style=" width:50% " id="formulario">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre y apellido</label>
+                    <input type="text" class="form-control" id="nombreApellido" placeholder="Ejemplo Juan Arredondo">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario</label>
+                    <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+    
+                  <div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Limpiar</button>
+                  </div>
+            </form>
+
+            
+              
+    
+    </main>
+
+    <footer></footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
